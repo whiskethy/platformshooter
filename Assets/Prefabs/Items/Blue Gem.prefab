@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 431071801749339119}
   - component: {fileID: 431071801749339116}
   - component: {fileID: 431071801749339117}
+  - component: {fileID: 1723866879634286996}
   m_Layer: 14
-  m_Name: Cherry
+  m_Name: Blue Gem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +71,8 @@ SpriteRenderer:
   m_SortingLayerID: -1825556599
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bf7bb96fa1c415b4fb03ff227c934adc, type: 3}
+  m_Sprite: {fileID: -5053132526806704464, guid: 8ce5d00785d2ce64c9f168038dc50313,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -109,3 +111,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8891d4cbb26d70c478fec3139c29546d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1723866879634286996
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431071801749339106}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f76486af5e8c434f97530cfe24dc32e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
